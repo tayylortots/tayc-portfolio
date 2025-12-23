@@ -152,7 +152,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             </div>
             <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden">
               <div className="absolute inset-0">
-                <img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.searchResults} loading="lazy" />
+                <img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.problemImage} loading="lazy" />
               </div>
             </div>
           </div>
@@ -511,6 +511,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
     </div>
   );
 }
+
 
 
 
