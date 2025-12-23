@@ -408,11 +408,9 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 </div>
                 <p className="flex-1 font-['Work_Sans:Regular',sans-serif] font-normal text-[16px] text-white leading-[22px]">A graphic banner to provide ways users can refine their search, if the first 10 results don't show their desired material.</p>
               </div>
-              <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden">
-                <div className="absolute h-[420px] w-[744px] left-1/2 -translate-x-1/2 rounded-[8px] top-1/2 -translate-y-1/2">
-                  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[8px] size-full" src={caseStudy.afterImage} />
+                <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden flex items-center justify-center p-[20px]">
+                  <img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.searchResults} />
                 </div>
-              </div>
             </div>
             
             {/* Feature 2 */}

@@ -1,3 +1,11 @@
+/* Press Start 2P - Used for Game Boy UI elements */
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* VT323 - Used for pixel-style text */
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+/* Inria Serif - Used for headings in portfolio */
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
+
+/* Work Sans - Used for body text in portfolio */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
