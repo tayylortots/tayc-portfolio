@@ -180,11 +180,11 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[193px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
                       <div className="flex items-center justify-center h-full px-[24px]">
-                        <p className="font-['Press_Start_2P:Regular',sans-serif] text-[7px] text-[#0f380f]">Grad student</p>
+                        <p className="text-[7px] text-[#0f380f]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Grad student</p>
                       </div>
                     </div>
                     <div className="bg-[#9baa72] min-h-[88px] w-full p-[13px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, inset 0 0 0 2px #7a8a5b' }}>
-                      <p className="font-['Press_Start_2P:Regular',sans-serif] leading-[12.6px] text-[#0f380f] text-[7px]">Being able to read abstracts before clicking onto the item pages would be helpful.</p>
+                      <p className="leading-[12.6px] text-[#0f380f] text-[7px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Being able to read abstracts before clicking onto the item pages would be helpful.</p>
                     </div>
                   </div>
                 </div>
@@ -202,11 +202,11 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[179px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
                       <div className="flex items-center justify-center h-full px-[24px]">
-                        <p className="font-['Press_Start_2P:Regular',sans-serif] text-[7px] text-[#0f380f]">Film student</p>
+                        <p className="text-[7px] text-[#0f380f]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Film student</p>
                       </div>
                     </div>
                     <div className="bg-[#9baa72] min-h-[88px] w-full p-[13px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, inset 0 0 0 2px #7a8a5b' }}>
-                      <p className="font-['Press_Start_2P:Regular',sans-serif] leading-[12.6px] text-[#0f380f] text-[7px]">Maybe it's because I'm a film student, but it would be helpful for me to have the DVDs separated from the general search.</p>
+                      <p className="leading-[12.6px] text-[#0f380f] text-[7px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Maybe it's because I'm a film student, but it would be helpful for me to have the DVDs separated from the general search.</p>
                     </div>
                   </div>
                 </div>
@@ -226,11 +226,11 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[193px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
                       <div className="flex items-center justify-center h-full px-[24px]">
-                        <p className="font-['Press_Start_2P:Regular',sans-serif] text-[7px] text-[#0f380f]">Grad student</p>
+                        <p className="text-[7px] text-[#0f380f]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Grad student</p>
                       </div>
                     </div>
                     <div className="bg-[#9baa72] min-h-[88px] w-full p-[13px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, inset 0 0 0 2px #7a8a5b' }}>
-                      <p className="font-['Press_Start_2P:Regular',sans-serif] leading-[12.6px] text-[#0f380f] text-[7px]">Being able to read abstracts before clicking onto the item pages would be helpful.</p>
+                      <p className="leading-[12.6px] text-[#0f380f] text-[7px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Being able to read abstracts before clicking onto the item pages would be helpful.</p>
                     </div>
                   </div>
                 </div>
@@ -258,11 +258,11 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[232px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
                       <div className="flex items-center justify-center h-full px-[7.5px]">
-                        <p className="font-['Press_Start_2P:Regular',sans-serif] text-[7px] text-[#0f380f]">Undergrad student</p>
+                        <p className="text-[7px] text-[#0f380f]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Undergrad student</p>
                       </div>
                     </div>
                     <div className="bg-[#9baa72] min-h-[88px] w-full p-[13px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, inset 0 0 0 2px #7a8a5b' }}>
-                      <p className="font-['Press_Start_2P:Regular',sans-serif] leading-[12.6px] text-[#0f380f] text-[7px]">Availability is a big factor when deciding to click an article. It's frustrating when I find a good article, but it ends up not being available. </p>
+                      <p className="leading-[12.6px] text-[#0f380f] text-[7px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>Availability is a big factor when deciding to click an article. It's frustrating when I find a good article, but it ends up not being available. </p>
                     </div>
                   </div>
                 </div>
@@ -493,9 +493,10 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
           Instagram
         </a>
       </div>
-      <p 
-        className="text-[#c0c0c0] text-center font-light" style={{ "'Work Sans', sans-serif" }}
-        style={{ 
+      <p
+        className="text-[#c0c0c0] text-center font-light" 
+        style={{
+          fontFamily: "'Work Sans', sans-serif",
           fontSize: '12px',
           letterSpacing: '0.02em',
           opacity: 1
