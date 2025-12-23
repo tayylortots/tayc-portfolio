@@ -94,7 +94,7 @@ export const portfolio = {
 // =============================================================================
 export const misc = {
   frame19Image: PLACEHOLDER, // figma:asset/5d2f0bf208b13cdc96318ef0b9c09a877e9d59f0.png
-  frame23Ellipse: PLACEHOLDER, // figma:asset/e52af38d80f66efc8982e609c42db11bbe8c8021.png
+  frame23Ellipse: new URL('/src/assets/sprites/frame23-logo.png', import.meta.url).href,
 };
 
 /**
