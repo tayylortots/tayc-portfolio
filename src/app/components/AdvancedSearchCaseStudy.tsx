@@ -195,7 +195,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                         <img alt="" className="absolute h-[110.18%] left-0 max-w-none top-[-0.02%] w-full" src={caseStudy.quoteImage2} />
                       </div>
                     </div>
-                    <p className="absolute  font-normal inset-[86.01%_30.24%_10.12%_30.39%] leading-[12.6px] text-white text-[12px] text-center">DVDs not listed in the first 4 results</p>
+                    <p className="absolute  font-normal inset-[86.01%_30.24%_10.12%_30.39%] leading-[12.6px] text-white text-[12px] text-center whitespace-nowrap">DVDs not listed in the first 4 results</p>
                   </div>
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[179px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
@@ -219,7 +219,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                         <img alt="" className="absolute h-[120.18%] left-[-0.04%] max-w-none top-0 w-[100.08%]" src={caseStudy.quoteImage3} />
                       </div>
                     </div>
-                    <p className="absolute  font-normal inset-[86.01%_28.5%_10.12%_28.98%] leading-[12.6px] text-white text-[12px] text-center">Info about contributors = not as useful</p>
+                    <p className="absolute  font-normal inset-[86.01%_28.5%_10.12%_28.98%] leading-[12.6px] text-white text-[12px] text-center whitespace-nowrap">Info about contributors = not as useful</p>
                   </div>
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[193px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
