@@ -104,7 +104,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 </div>
               </div>
               
-              <div className="bg-[#9caa9c] h-[300px] md:h-[500px] rounded-[8px] mb-[38px] relative overflow-hidden flex items-center justify-center p-8"><img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.heroImage} loading="lazy" /></div>
+              <div className="bg-[#9caa9c] h-[300px] md:h-[500px] rounded-[8px] mb-[38px] relative overflow-hidden flex items-center justify-center p-[24px]"><img alt="" className="w-auto h-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.heroImage} loading="lazy" /></div>
               
               <div className="flex flex-col lg:flex-row gap-[40px]">
                 <div className="flex-1 flex flex-col gap-[38px]">
@@ -146,10 +146,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 <span className="font-bold">The system did not support error prevention, accessibility prioritization, or efficient search refinement</span>, forcing users to take extra steps to find the right materials.
               </p>
             </div>
-            <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden">
-              <div className="absolute inset-0">
-                <img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.problemImage} loading="lazy" />
-              </div>
+            <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden p-[24px] flex items-center justify-center">
+              <img alt="" className="w-auto h-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.problemImage} loading="lazy" />
             </div>
           </div>
         </div>
@@ -274,13 +272,11 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
 
       {/* Challenge Banner */}
       <ScrollReveal delay={0.1}>
-        <div className="max-w-[1000px] mx-auto px-8">
-          <div className="bg-gradient-to-b from-[#525a51] to-[rgba(189,207,186,0)] h-[336px] rounded-[8px] mb-[120px] relative overflow-hidden">
-            <div className="absolute h-[123px] w-[220px] left-1/2 -translate-x-1/2 top-[155px]">
-              <img alt="" className="absolute inset-0 max-w-none object-cover rounded-[8px] size-full" src="https://media.tenor.com/lair7RW79PAAAAAM/game-boy-pokemon.gif" />
-            </div>
-            <p className="absolute text-[32px] text-[#cce4cc] left-1/2 -translate-x-1/2 top-[57px] text-center w-[528px] leading-[35px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>But wait!!</p>
-            <p className="absolute text-[15px] text-[#cce4cc] left-1/2 -translate-x-1/2 top-[106px] text-center leading-[35px] whitespace-nowrap" style={{ fontFamily: "'Press Start 2P', monospace" }}>An extra CHALLENGE appears</p>
+        <div className="max-w-[1000px] mx-auto px-8 mb-[120px]">
+          <div className="bg-gradient-to-b from-[#525a51] to-[rgba(189,207,186,0)] rounded-[8px] relative overflow-hidden flex flex-col items-center justify-center p-[24px]">
+            <p className="text-[32px] text-[#cce4cc] text-center w-full leading-[35px] mb-[12px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>But wait!!</p>
+            <p className="text-[15px] text-[#cce4cc] text-center w-full leading-[35px] whitespace-nowrap mb-[24px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>An extra CHALLENGE appears</p>
+            <img alt="" className="h-auto w-auto max-w-full max-h-[250px] object-contain rounded-[8px]" src="https://media.tenor.com/lair7RW79PAAAAAM/game-boy-pokemon.gif" />
           </div>
         </div>
       </ScrollReveal>
@@ -337,9 +333,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             <div className="flex flex-col gap-[38px]">
               {/* Idea 1 */}
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] items-center">
-                <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0">
-                  <div className="absolute h-[196px] w-[500px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={caseStudy.searchSuggestions} />
-                  </div>
+                <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0 p-[24px] flex items-center justify-center">
+                  <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.searchSuggestions} />
                 </div>
                 <div className="flex-1">
                   <p className="text-[#b0b0b0] uppercase leading-[22px]" style={{ fontFamily: "'VT323', monospace", fontSize: '18px', lineHeight: '25.2px', letterSpacing: '0.42px', wordSpacing: '0.3em' }}>IDEA #1</p>
@@ -349,9 +344,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               
               {/* Idea 2 */}
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] items-center">
-                <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] overflow-clip relative flex-shrink-0">
-                  <div className="absolute h-[190px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[459px]"><img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={caseStudy.channelRecommendations} />
-                  </div>
+                <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0 p-[24px] flex items-center justify-center">
+                  <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.channelRecommendations} />
                 </div>
                 <div className="flex-1">
                   <p className="text-[#b0b0b0] uppercase leading-[22px]" style={{ fontFamily: "'VT323', monospace", fontSize: '18px', lineHeight: '25.2px', letterSpacing: '0.42px', wordSpacing: '0.3em' }}>IDEA #2</p>
@@ -361,13 +355,12 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               
               {/* Idea 3 */}
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] items-center">
-                <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0">
-                  <div className="absolute h-[131px] w-[453px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={caseStudy.libraryItemCard} />
-                  </div>
+                <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0 p-[24px] flex items-center justify-center">
+                  <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.libraryItemCard} />
                 </div>
                 <div className="flex-1">
                   <p className="text-[#b0b0b0] uppercase leading-[22px]" style={{ fontFamily: "'VT323', monospace", fontSize: '18px', lineHeight: '25.2px', letterSpacing: '0.42px', wordSpacing: '0.3em' }}>IDEA #3</p>
-                  <p className=" font-normal text-[16px] text-white leading-[22px]">Redesigning the card component to surface key information that enables students to evaluate and select resources directly from the search page.</p>
+                  <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Redesigning the card component to surface key information that enables students to evaluate and select resources directly from the search page.</p>
                 </div>
               </div>
             </div>
@@ -381,7 +374,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
           <div className="mb-[60px] md:mb-[120px]">
             <p className="text-[#b0b0b0] uppercase mb-4" style={{ fontFamily: "'VT323', monospace", fontSize: '18px', lineHeight: '25.2px', letterSpacing: '0.42px', wordSpacing: '0.3em' }}>CONSTRAINTS</p>
             <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Primo's backend is VERY limited</p>
-            <p className=" font-normal text-[16px] text-white leading-[22px]">After reviewing the wireframes with our PM and developers, we determined that Primo's backend limitations would prevent the implementation of a "suggestions" feature, requiring us to explore alternative solutions.</p>
+            <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>After reviewing the wireframes with our PM and developers, we determined that Primo's backend limitations would prevent the implementation of a "suggestions" feature, requiring us to explore alternative solutions.</p>
           </div>
         </div>
       </ScrollReveal>
@@ -393,7 +386,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             <div className="mb-[60px]">
               <p className="text-[#b0b0b0] uppercase mb-4" style={{ fontFamily: "'VT323', monospace", fontSize: '18px', lineHeight: '25.2px', letterSpacing: '0.42px', wordSpacing: '0.3em' }}>THE SOLUTION</p>
               <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Prioritizing impact within a smaller design scope</p>
-              <p className=" font-normal text-[16px] text-white leading-[22px]">Returning to the drawing board, we focused on two shippable features that would still provide students with guidance when navigating Primo's search.</p>
+              <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Returning to the drawing board, we focused on two shippable features that would still provide students with guidance when navigating Primo's search.</p>
             </div>
             
             {/* Feature 1 */}
@@ -402,7 +395,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 <div className="flex-1">
                   <p className="text-[24px] md:text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>Feature #1</p>
                 </div>
-                <p className="flex-1  font-normal text-[16px] text-white leading-[22px]">A graphic banner to provide ways users can refine their search, if the first 10 results don't show their desired material.</p>
+                <p className="flex-1  font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>A graphic banner to provide ways users can refine their search, if the first 10 results don't show their desired material.</p>
               </div>
                 <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden flex items-center justify-center p-[20px]">
                   <img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.searchResults} />
@@ -415,22 +408,20 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 <div className="flex-1">
                   <p className="text-[24px] md:text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>Feature #2</p>
                 </div>
-                <p className="flex-1  font-normal text-[16px] text-white leading-[22px]">Enhancing search result cards so users can quickly evaluate resources and see availability and key details when available.</p>
+                <p className="flex-1  font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Enhancing search result cards so users can quickly evaluate resources and see availability and key details when available.</p>
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-[16px] mb-[16px]">
                 <div className="flex flex-col gap-[16px]">
-                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative">
-                    <div className="absolute h-[230px] w-[410px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover object-center rounded-[4px] size-full" src={caseStudy.beforeImage} />
-                    </div>
+                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative p-[24px]">
+                    <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.beforeImage} />
                   </div>
-                  <p className=" font-normal text-[16px] text-white leading-[22px]">Before</p>
+                  <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Before</p>
                 </div>
                 <div className="flex flex-col gap-[16px]">
-                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative">
-                    <div className="absolute h-[290px] w-[265px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover object-center rounded-[4px] size-full" src={caseStudy.afterImage} />
-                    </div>
+                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative p-[16px]">
+                    <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.afterImage} />
                   </div>
-                  <p className=" font-normal text-[16px] text-white leading-[22px]">After</p>
+                  <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>After</p>
                 </div>
               </div>
             </div>
@@ -444,7 +435,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
           <div className="mb-[60px] md:mb-[120px]">
             <p className="text-[#b0b0b0] uppercase mb-4" style={{ fontFamily: "'VT323', monospace", fontSize: '18px', lineHeight: '25.2px', letterSpacing: '0.42px', wordSpacing: '0.3em' }}>THE RESULTS</p>
             <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Highly positive reception from the UC Library board and from usability tests</p>
-            <p className=" font-normal text-[16px] text-white leading-[22px] mb-[38px]">The features were well received by the UC Library board and validated through 8 usability tests. UC Libraries are using our recommendations to work with Primo on backend improvements. Success will be measured through repeated use, higher Advanced Search engagement, and increased user confidence in finding resources. A full redesign of the design system will be covered in another case study.</p>
+            <p className=" font-normal text-[16px] text-white leading-[22px] mb-[38px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>The features were well received by the UC Library board and validated through 8 usability tests. UC Libraries are using our recommendations to work with Primo on backend improvements. Success will be measured through repeated use, higher Advanced Search engagement, and increased user confidence in finding resources. A full redesign of the design system will be covered in another case study.</p>
             <div className="h-auto max-w-full md:h-[376px] md:w-[656px] mx-auto">
               <img alt="" className="w-full h-auto md:max-w-none md:object-cover md:size-full" src={caseStudy.finalImage} />
             </div>
