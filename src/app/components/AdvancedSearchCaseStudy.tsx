@@ -279,8 +279,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             <div className="absolute h-[123px] w-[220px] left-1/2 -translate-x-1/2 top-[155px]">
               <img alt="" className="absolute inset-0 max-w-none object-cover rounded-[8px] size-full" src="https://media.tenor.com/lair7RW79PAAAAAM/game-boy-pokemon.gif" />
             </div>
-            <p className="absolute font-['Press_Start_2P:Regular',sans-serif] text-[32px] text-[#cce4cc] left-1/2 -translate-x-1/2 top-[57px] text-center w-[528px] leading-[35px]">But wait!!</p>
-            <p className="absolute font-['Press_Start_2P:Regular',sans-serif] text-[15px] text-[#cce4cc] left-1/2 -translate-x-1/2 top-[106px] text-center leading-[35px] whitespace-nowrap">An extra CHALLENGE appears</p>
+            <p className="absolute text-[32px] text-[#cce4cc] left-1/2 -translate-x-1/2 top-[57px] text-center w-[528px] leading-[35px]" style={{ fontFamily: "'Press Start 2P', monospace" }}>But wait!!</p>
+            <p className="absolute text-[15px] text-[#cce4cc] left-1/2 -translate-x-1/2 top-[106px] text-center leading-[35px] whitespace-nowrap" style={{ fontFamily: "'Press Start 2P', monospace" }}>An extra CHALLENGE appears</p>
           </div>
         </div>
       </ScrollReveal>
@@ -494,7 +494,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
         </a>
       </div>
       <p 
-        className="text-[#c0c0c0] text-center font-light" style={{ fontFamily: "'Work Sans', sans-serif" }}
+        className="text-[#c0c0c0] text-center font-light" style={{ "'Work Sans', sans-serif" }}
         style={{ 
           fontSize: '12px',
           letterSpacing: '0.02em',
@@ -507,6 +507,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
     </div>
   );
 }
+
 
 
 
