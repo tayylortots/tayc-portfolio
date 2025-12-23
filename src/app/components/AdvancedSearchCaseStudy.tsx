@@ -152,7 +152,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             </div>
             <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden">
               <div className="absolute h-[420px] left-1/2 -translate-x-1/2 rounded-[8px] top-1/2 -translate-y-1/2 w-[744px]">
-                <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[8px] size-full" src={caseStudy.problemImage} loading="lazy" />
+                <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[8px] size-full" src={caseStudy.searchResults} loading="lazy" />
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 {/* Quote 1 */}
                 <div className="flex flex-col gap-[16px]">
                   <div className="bg-[#485248] h-[500px] rounded-[8px] relative overflow-hidden flex items-center justify-center">
-                    <img alt="" className="max-w-[90%] max-h-[90%] object-contain rounded-[4px]" src={caseStudy.problemImage} />
+                    <img alt="" className="max-w-[90%] max-h-[90%] object-contain rounded-[4px]" src={caseStudy.quoteImage1} />
                   </div>
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[193px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
@@ -198,7 +198,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="bg-[#485248] h-[500px] rounded-[8px] relative overflow-hidden">
                     <div className="absolute rounded-[8px] inset-[23.21%_8.35%_23.51%_8.5%]">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-                        <img alt="" className="absolute h-[110.18%] left-0 max-w-none top-[-0.02%] w-full" src={caseStudy.problemImage} />
+                        <img alt="" className="absolute h-[110.18%] left-0 max-w-none top-[-0.02%] w-full" src={caseStudy.quoteImage2} />
                       </div>
                     </div>
                     <p className="absolute font-['Work_Sans:Regular',sans-serif] font-normal inset-[86.01%_30.24%_10.12%_30.39%] leading-[12.6px] text-white text-[10px] text-center">DVDs not listed in the first 4 results</p>
@@ -222,7 +222,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="bg-[#485248] h-[500px] rounded-[8px] relative overflow-hidden">
                     <div className="absolute rounded-[8px] inset-[11.9%_11.81%_20.24%_11.97%]">
                       <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-                        <img alt="" className="absolute h-[120.18%] left-[-0.04%] max-w-none top-0 w-[100.08%]" src={caseStudy.problemImage} />
+                        <img alt="" className="absolute h-[120.18%] left-[-0.04%] max-w-none top-0 w-[100.08%]" src={caseStudy.quoteImage3} />
                       </div>
                     </div>
                     <p className="absolute font-['Work_Sans:Regular',sans-serif] font-normal inset-[86.01%_28.5%_10.12%_28.98%] leading-[12.6px] text-white text-[10px] text-center">Info about contributors = not as useful</p>
@@ -245,10 +245,10 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                     <div className="relative w-[350px] h-[350px]">
                       <p className="absolute font-['Work_Sans:Regular',sans-serif] font-normal bottom-0 left-0 right-0 leading-[12.6px] text-white text-[10px] text-center">Click into additional layers to find if available in person</p>
                       <div className="absolute top-[60px] left-[20px] right-[55px] rounded-[4px]">
-                        <img alt="" className="w-full h-auto object-contain rounded-[4px]" src={caseStudy.problemImage} />
+                        <img alt="" className="w-full h-auto object-contain rounded-[4px]" src={caseStudy.quoteImage4} />
                       </div>
                       <div className="absolute top-[135px] left-[37.5px] h-[91px] w-[265px] rounded-[4px] shadow-[0px_2px_13.8px_0px_rgba(0,0,0,0.25)]">
-                        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4px] size-full" src={caseStudy.problemImage} />
+                        <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[4px] size-full" src={caseStudy.quoteImage5} />
                       </div>
                       <div className="absolute h-[22px] left-[24.5px] top-[150px] w-[8.5px]">
                         <div className="absolute inset-[0_-5.88%_-16.74%_-5.88%]">
@@ -308,14 +308,13 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               <div className="flex gap-[36px] items-center justify-center relative">
                 <div className="flex flex-col gap-[8px] items-center w-[150px]">
                   <div className="rounded-[8px] size-[132px] relative overflow-hidden">
-                    <img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.problemImage} />
+                    <img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.challengeAI} />
                   </div>
                   <p className="font-['Work_Sans:Regular',sans-serif] font-normal text-[10px] text-center text-white leading-[22px]">Students want AI results</p>
                 </div>
                 <p className="font-['Press_Start_2P:Regular',sans-serif] text-[40px] text-black leading-[22px]">VS</p>
                 <div className="flex flex-col gap-[8px] items-center w-[148px]">
-                  <div className="rounded-[8px] w-[148px] h-[125px] relative overflow-hidden bg-white">
-                    <img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.problemImage} />
+                  <div className="rounded-[8px] w-[148px] h-[125px] relative overflow-hidden bg-white"><img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.challengeLibrarian} />
                   </div>
                   <p className="font-['Work_Sans:Regular',sans-serif] font-normal text-[10px] text-center text-white leading-[normal]">Librarians want to preserve academic research methods</p>
                 </div>
@@ -343,8 +342,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               {/* Idea 1 */}
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] items-center">
                 <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0">
-                  <div className="absolute h-[196px] w-[500px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
-                    <img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={caseStudy.problemImage} />
+                  <div className="absolute h-[196px] w-[500px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={caseStudy.searchSuggestions} />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -356,8 +354,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               {/* Idea 2 */}
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] items-center">
                 <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] overflow-clip relative flex-shrink-0">
-                  <div className="absolute h-[190px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[459px]">
-                    <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={caseStudy.problemImage} />
+                  <div className="absolute h-[190px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-[459px]"><img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none size-full" src={caseStudy.channelRecommendations} />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -369,8 +366,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               {/* Idea 3 */}
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px] items-center">
                 <div className="bg-[#485248] h-[300px] md:h-[400px] lg:h-[500px] w-full lg:w-[530px] rounded-[8px] relative overflow-hidden flex-shrink-0">
-                  <div className="absolute h-[131px] w-[453px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
-                    <img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={caseStudy.problemImage} />
+                  <div className="absolute h-[131px] w-[453px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover size-full" src={caseStudy.libraryItemCard} />
                   </div>
                 </div>
                 <div className="flex-1">
@@ -414,7 +410,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               </div>
               <div className="bg-[#485248] h-[300px] md:h-[500px] rounded-[8px] relative overflow-hidden">
                 <div className="absolute h-[420px] w-[744px] left-1/2 -translate-x-1/2 rounded-[8px] top-1/2 -translate-y-1/2">
-                  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[8px] size-full" src={caseStudy.problemImage} />
+                  <img alt="" className="absolute inset-0 max-w-none object-50%-50% object-cover pointer-events-none rounded-[8px] size-full" src={caseStudy.afterImage} />
                 </div>
               </div>
             </div>
@@ -430,16 +426,14 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-[16px] mb-[16px]">
                 <div className="flex flex-col gap-[16px]">
                   <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative">
-                    <div className="absolute h-[230px] w-[410px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
-                      <img alt="" className="absolute inset-0 max-w-none object-cover object-center rounded-[4px] size-full" src={caseStudy.problemImage} />
+                    <div className="absolute h-[230px] w-[410px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover object-center rounded-[4px] size-full" src={caseStudy.beforeImage} />
                     </div>
                   </div>
                   <p className="font-['Work_Sans:Regular',sans-serif] font-normal text-[16px] text-white leading-[22px]">Before</p>
                 </div>
                 <div className="flex flex-col gap-[16px]">
                   <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative">
-                    <div className="absolute h-[290px] w-[265px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2">
-                      <img alt="" className="absolute inset-0 max-w-none object-cover object-center rounded-[4px] size-full" src={caseStudy.problemImage} />
+                    <div className="absolute h-[290px] w-[265px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2"><img alt="" className="absolute inset-0 max-w-none object-cover object-center rounded-[4px] size-full" src={caseStudy.afterImage} />
                     </div>
                   </div>
                   <p className="font-['Work_Sans:Regular',sans-serif] font-normal text-[16px] text-white leading-[22px]">After</p>
@@ -458,7 +452,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white mb-4">Highly positive reception from the UC Library board and from usability tests</p>
             <p className="font-['Work_Sans:Regular',sans-serif] font-normal text-[16px] text-white leading-[22px] mb-[38px]">The features were well received by the UC Library board and validated through 8 usability tests. UC Libraries are using our recommendations to work with Primo on backend improvements. Success will be measured through repeated use, higher Advanced Search engagement, and increased user confidence in finding resources. A full redesign of the design system will be covered in another case study.</p>
             <div className="h-auto max-w-full md:h-[376px] md:w-[656px] mx-auto">
-              <img alt="" className="w-full h-auto md:max-w-none md:object-cover md:size-full" src={caseStudy.problemImage} />
+              <img alt="" className="w-full h-auto md:max-w-none md:object-cover md:size-full" src={caseStudy.finalImage} />
             </div>
           </div>
         </div>
@@ -519,5 +513,32 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
