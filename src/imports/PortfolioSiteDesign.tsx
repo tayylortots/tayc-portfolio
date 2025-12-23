@@ -98,7 +98,7 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
                 onMouseLeave={() => setIsLibraryHovered(false)}
               >
                 {/* Background and Image - Always visible */}
-                <img alt="Advanced Search Interface" className="absolute w-full h-full top-0 left-0 object-cover" src={portfolio.mainPortfolioImage} />                {/* Hover Overlay - Enhanced plastic glossy effect */}
+                <img alt="Advanced Search Interface" className="absolute w-full h-auto top-[143px] left-0" src={portfolio.mainPortfolioImage} />                {/* Hover Overlay - Enhanced plastic glossy effect */}
                 <div className={`absolute inset-0 pointer-events-none transition-opacity duration-300 ease-in-out ${isLibraryHovered ? 'opacity-100' : 'opacity-0'}`}>
                   {/* Main diagonal glossy shine with subtle green tint */}
                   <div className="absolute inset-0 bg-gradient-to-br from-[rgba(220,255,220,0.3)] via-white/5 to-transparent" />
