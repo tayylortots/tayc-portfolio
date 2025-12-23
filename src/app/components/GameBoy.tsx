@@ -288,7 +288,7 @@ export default function GameBoy({ onStateChange, isTransitioning, onHoverChange,
         
         {/* Power Switch */}
         <div className="absolute top-4 left-6 flex items-center gap-2">
-          <span className="text-gray-500" style={{ fontFamily: "'Press Start 2P', monospace", fontSize: '7px', letterSpacing: '0.5px' }}>OFF・ON</span>
+          <span className="text-[10px] text-gray-500 tracking-wider">OFF・ON</span>
           <button
             onClick={handlePowerToggle}
             className={`w-10 h-5 rounded-full transition-all duration-300 relative hover:brightness-110 ${
@@ -313,7 +313,7 @@ export default function GameBoy({ onStateChange, isTransitioning, onHoverChange,
           {/* Battery Indicator */}
           <div className="flex items-center gap-1 mb-2">
             <div className="w-2 h-2 rounded-full bg-[#a0665f]"></div>
-            <span className="text-gray-400" style={{ fontFamily: "'Press Start 2P', monospace", fontSize: '6px', letterSpacing: '0.5px' }}>BATTERY</span>
+            <span className="text-[8px] text-gray-400 tracking-wider">BATTERY</span>
           </div>
 
           {/* Screen */}
