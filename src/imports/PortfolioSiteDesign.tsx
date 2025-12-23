@@ -92,15 +92,13 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
           {/* Project 1 - Improving the search experience */}
           <ScrollReveal delay={0.1}>
             <div onClick={() => setShowCaseStudy(true)} className="cursor-pointer">
-              <div 
+              <div
                 className="h-[433px] rounded-tl-[8px] rounded-tr-[50px] rounded-br-[8px] rounded-bl-[8px] shadow-[0px_2px_24.4px_0px_rgba(0,0,0,0.25)] mb-4 overflow-hidden relative transition-all bg-[#455345]"
                 onMouseEnter={() => setIsLibraryHovered(true)}
                 onMouseLeave={() => setIsLibraryHovered(false)}
               >
                 {/* Background and Image - Always visible */}
-                <img alt="Advanced Search Interface" className="absolute w-full h-auto top-[143px] left-0" src={portfolio.mainPortfolioImage} />
-                
-                {/* Hover Overlay - Enhanced plastic glossy effect */}
+                <img alt="Advanced Search Interface" className="absolute w-full h-auto top-0 left-0 object-cover" src={portfolio.mainPortfolioImage} />                {/* Hover Overlay - Enhanced plastic glossy effect */}
                 <div className={`absolute inset-0 pointer-events-none transition-opacity duration-300 ease-in-out ${isLibraryHovered ? 'opacity-100' : 'opacity-0'}`}>
                   {/* Main diagonal glossy shine with subtle green tint */}
                   <div className="absolute inset-0 bg-gradient-to-br from-[rgba(220,255,220,0.3)] via-white/5 to-transparent" />
