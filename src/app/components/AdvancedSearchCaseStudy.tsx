@@ -104,7 +104,14 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 </div>
               </div>
               
-              <div className="bg-[#9caa9c] rounded-[8px] mb-[38px] flex items-center justify-center p-[24px]"><img alt="" className="w-auto h-auto max-w-full object-contain rounded-[8px]" src={caseStudy.searchResults} loading="lazy" /></div>
+              <div className="bg-[#9caa9c] rounded-[8px] mb-[24px] flex items-center justify-center p-[24px]"><img alt="" className="w-auto h-auto max-w-full object-contain rounded-[8px]" src={caseStudy.searchResults} loading="lazy" /></div>
+              <div className="max-w-[1000px] mx-auto px-4 md:px-8 mb-[60px]">
+                <p className="text-[10px] text-white leading-[14px] mb-[8px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>DVDs not listed in the first 4 results</p>
+                <p className="text-[10px] text-white leading-[14px] mb-[8px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Info about contributors = not as useful</p>
+                <p className="text-[10px] text-white leading-[14px] mb-[8px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Click into additional layers to find if available in person</p>
+                <p className="text-[10px] text-white leading-[14px] mb-[8px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Students want AI results</p>
+                <p className="text-[10px] text-white leading-[14px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Librarians want to preserve academic research methods</p>
+              </div>
               
               <div className="flex flex-col lg:flex-row gap-[40px]">
                 <div className="flex-1 flex flex-col gap-[38px]">
