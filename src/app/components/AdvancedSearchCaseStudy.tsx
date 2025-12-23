@@ -195,7 +195,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                         <img alt="" className="absolute h-[110.18%] left-0 max-w-none top-[-0.02%] w-full" src={caseStudy.quoteImage2} />
                       </div>
                     </div>
-                    <p className="absolute  font-normal inset-[86.01%_30.24%_10.12%_30.39%] leading-[12.6px] text-white text-[12px] text-center whitespace-nowrap">DVDs not listed in the first 4 results</p>
+                    <p className="absolute  font-normal inset-[86.01%_30.24%_10.12%_30.39%] leading-[12.6px] text-white text-[10px] text-center">DVDs not listed in the first 4 results</p>
                   </div>
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[179px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
@@ -219,7 +219,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                         <img alt="" className="absolute h-[120.18%] left-[-0.04%] max-w-none top-0 w-[100.08%]" src={caseStudy.quoteImage3} />
                       </div>
                     </div>
-                    <p className="absolute  font-normal inset-[86.01%_28.5%_10.12%_28.98%] leading-[12.6px] text-white text-[12px] text-center whitespace-nowrap">Info about contributors = not as useful</p>
+                    <p className="absolute  font-normal inset-[86.01%_28.5%_10.12%_28.98%] leading-[12.6px] text-white text-[10px] text-center">Info about contributors = not as useful</p>
                   </div>
                   <div className="flex flex-col gap-0">
                     <div className="bg-[#9baa72] h-[37px] w-[193px] relative" style={{ boxShadow: '0 0 0 4px #0f380f, 0 4px 0 0 transparent, inset 0 0 0 2px #7a8a5b' }}>
@@ -237,7 +237,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 <div className="flex flex-col gap-[16px]">
                   <div className="bg-[#485248] h-[500px] rounded-[8px] relative overflow-hidden flex items-center justify-center">
                     <div className="relative w-[350px] h-[350px]">
-                      <p className="absolute  font-normal bottom-0 left-0 right-0 leading-[12.6px] text-white text-[12px] text-center">Click into additional layers to find if available in person</p>
+                      <p className="absolute  font-normal bottom-0 left-0 right-0 leading-[12.6px] text-white text-[10px] text-center">Click into additional layers to find if available in person</p>
                       <div className="absolute top-[60px] left-[20px] right-[55px] rounded-[4px]">
                         <img alt="" className="w-full h-auto object-contain rounded-[4px]" src={caseStudy.quoteImage4} />
                       </div>
@@ -302,13 +302,13 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <div className="rounded-[8px] size-[132px] relative overflow-hidden">
                     <img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.challengeAI} />
                   </div>
-                  <p className=" font-normal text-[12px] text-center text-white leading-[22px]">Students want AI results</p>
+                  <p className=" font-normal text-[10px] text-center text-white leading-[22px]">Students want AI results</p>
                 </div>
                 <p className="font-['Press_Start_2P:Regular',sans-serif] text-[40px] text-black leading-[22px]">VS</p>
                 <div className="flex flex-col gap-[8px] items-center w-[148px]">
                   <div className="rounded-[8px] w-[148px] h-[125px] relative overflow-hidden bg-white"><img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.challengeLibrarian} />
                   </div>
-                  <p className=" font-normal text-[12px] text-center text-white leading-[normal]">Librarians want to preserve academic research methods</p>
+                  <p className=" font-normal text-[10px] text-center text-white leading-[normal]">Librarians want to preserve academic research methods</p>
                 </div>
               </div>
             </div>
@@ -418,8 +418,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Before</p>
                 </div>
                 <div className="flex flex-col gap-[16px]">
-                  <div className="bg-[#485248] h-[500px] md:h-[600px] rounded-[8px] flex items-center justify-center overflow-hidden relative p-[16px]">
-                    <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.afterImage} />
+                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative p-[16px]">
+                    <img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.afterImage} />
                   </div>
                   <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>After</p>
                 </div>
