@@ -104,7 +104,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 </div>
               </div>
               
-              <div className="bg-[#9caa9c] rounded-[8px] mb-[38px] flex items-center justify-center p-[24px]"><img alt="" className="w-auto h-auto max-w-full object-contain rounded-[8px]" src={caseStudy.heroImage} loading="lazy" /></div>
+              <div className="bg-[#9caa9c] rounded-[8px] mb-[38px] flex items-center justify-center p-[24px]"><img alt="" className="w-auto h-auto max-w-full object-contain rounded-[8px]" src={caseStudy.searchResults} loading="lazy" /></div>
               
               <div className="flex flex-col lg:flex-row gap-[40px]">
                 <div className="flex-1 flex flex-col gap-[38px]">
