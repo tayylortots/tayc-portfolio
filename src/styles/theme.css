@@ -120,6 +120,11 @@
 }
 
 @layer base {
+  /* Define custom font families */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
   html,
   body,
   #root {
@@ -238,5 +243,33 @@
   .force-border {
     border-width: revert !important;
     border-style: solid !important;
+  }
+}
+
+/* Custom font utility classes */
+@layer utilities {
+  /* Press Start 2P - Game Boy UI */
+  .font-press-start {
+    font-family: 'Press Start 2P', monospace;
+  }
+
+  /* VT323 - Pixel font */
+  .font-vt323 {
+    font-family: 'VT323', monospace;
+  }
+
+  /* Inria Serif - Portfolio headings */
+  .font-inria {
+    font-family: 'Inria Serif', serif;
+  }
+
+  /* Work Sans - Portfolio body */
+  .font-work-sans {
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  /* Inika - Case study large headings */
+  .font-inika {
+    font-family: 'Inika', serif;
   }
 }
