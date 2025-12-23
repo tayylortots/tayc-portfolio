@@ -104,11 +104,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                 </div>
               </div>
               
-              <div className="bg-[#9caa9c] h-[300px] md:h-[500px] rounded-[8px] mb-[38px] relative overflow-hidden">
-                <div className="absolute h-[420px] w-[591px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
-                  <img alt="" className="absolute inset-0 max-w-none object-cover rounded-[8px] size-full" src={caseStudy.heroImage} loading="lazy" />
-                </div>
-              </div>
+              <div className="bg-[#9caa9c] h-[300px] md:h-[500px] rounded-[8px] mb-[38px] relative overflow-hidden"><img alt="" className="w-full h-full object-contain rounded-[8px]" src={caseStudy.heroImage} loading="lazy" /></div>
               
               <div className="flex flex-col lg:flex-row gap-[40px]">
                 <div className="flex-1 flex flex-col gap-[38px]">
@@ -511,6 +507,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
     </div>
   );
 }
+
+
 
 
 
