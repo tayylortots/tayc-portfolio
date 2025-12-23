@@ -100,7 +100,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                       wordSpacing: '0.3em'
                     }}>UCLA Library</p>
                   </div>
-                  <p className=" font-light text-[16px] md:text-[18px] text-white">Encouraging students to refine their search when results fall short.</p>
+                  <p className="font-light text-[16px] md:text-[18px] text-white" style={{ fontFamily: "'Work Sans', sans-serif" }}>Encouraging students to refine their search when results fall short.</p>
                 </div>
               </div>
               
@@ -161,10 +161,10 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
           <div className="mb-[60px] md:mb-[120px]">
             <div className="flex flex-col lg:flex-row gap-[38px] mb-[38px]">
               <div className="flex-1">
-                <p className=" font-semibold text-[16px] text-[#a9a9a9] mb-4">USER RESEARCH</p>
-                <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white">In fact, here are what users say about the current experience...</p>
+                <p className="font-semibold text-[16px] text-[#a9a9a9] mb-4" style={{ fontFamily: "'Work Sans', sans-serif" }}>USER RESEARCH</p>
+                <p className="text-[24px] md:text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>In fact, here are what users say about the current experience...</p>
               </div>
-              <p className="flex-1  font-normal text-[16px] text-white leading-[22px]">
+              <p className="flex-1 font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
                 I interviewed <span className="font-bold">5 undergrad and 5 grad students</span> to assess find their resources and their overall feelings about the experience.
               </p>
             </div>
@@ -289,9 +289,9 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
       <ScrollReveal delay={0.1}>
         <div className="max-w-[1000px] mx-auto px-8 mb-[120px]">
           <div className="mb-[60px]">
-            <p className=" font-semibold text-[16px] text-[#a9a9a9] mb-4">THE CHALLENGE</p>
-            <p className="font-['Inika:Regular',sans-serif] text-[32px] text-white mb-4">Balancing Search Simplicity With Research Rigor</p>
-            <p className=" font-normal text-[16px] text-white leading-[22px]">
+            <p className="font-semibold text-[16px] text-[#a9a9a9] mb-4" style={{ fontFamily: "'Work Sans', sans-serif" }}>THE CHALLENGE</p>
+            <p className="text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Balancing Search Simplicity With Research Rigor</p>
+            <p className="font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
               <span>Findings revealed a </span>
               <span className="font-bold">tension between students' desire for a simple, intuitive search experience and the library's need to maintain traditional research practices</span>. The design challenge lies in balancing ease of use with the rigor required for effective academic research.
             </p>
@@ -300,7 +300,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
           <div className="relative rounded-[8px]" style={{ backgroundImage: "linear-gradient(-36.8169deg, rgba(255, 255, 255, 0) 1.0274%, rgb(190, 137, 137) 100%)" }}>
             <div aria-hidden="true" className="absolute border-2 border-[#b97070] border-solid inset-0 pointer-events-none rounded-[8px]" />
             <div className="p-[20px]">
-              <p className="font-['Work_Sans:Bold',sans-serif] font-bold text-[16px] text-center text-white mb-[16px]">TDLR;</p>
+              <p className="font-bold text-[16px] text-center text-white mb-[16px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>TDLR;</p>
               <div className="flex gap-[36px] items-center justify-center relative">
                 <div className="flex flex-col gap-[8px] items-center w-[150px]">
                   <div className="rounded-[8px] size-[132px] relative overflow-hidden">
@@ -324,9 +324,9 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
       <ScrollReveal delay={0.1}>
         <div className="w-full bg-[#3d4a3d] py-[60px] md:py-[120px] mb-[60px] md:mb-[120px]">
           <div className="max-w-[1000px] mx-auto px-4 md:px-8">
-            <p className=" font-semibold text-[16px] text-[#a9a9a9] mb-4">PROBLEM SOLVING</p>
-            <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white mb-4">Initial proposed ideas</p>
-            <p className=" font-normal text-[16px] text-white leading-[22px] mb-[60px]">
+            <p className="font-semibold text-[16px] text-[#a9a9a9] mb-4" style={{ fontFamily: "'Work Sans', sans-serif" }}>PROBLEM SOLVING</p>
+            <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Initial proposed ideas</p>
+            <p className="font-normal text-[16px] text-white leading-[22px] mb-[60px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
               <span>From looking at </span>
               <span className="font-bold">11 different library sites</span>
               <span> and user testing their search engines, I noted </span>
@@ -342,8 +342,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   </div>
                 </div>
                 <div className="flex-1">
-                  <p className="font-['Work_Sans:Bold',sans-serif] font-bold text-[16px] text-[#a9a9a9] leading-[22px]">IDEA #1</p>
-                  <p className=" font-normal text-[16px] text-white leading-[22px]">As students enter a query, suggested search terms dynamically appear to predict intent and streamline discovery.</p>
+                  <p className="font-bold text-[16px] text-[#a9a9a9] leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>IDEA #1</p>
+                  <p className="font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>As students enter a query, suggested search terms dynamically appear to predict intent and streamline discovery.</p>
                 </div>
               </div>
               
@@ -354,8 +354,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   </div>
                 </div>
                 <div className="flex-1">
-                  <p className="font-['Work_Sans:Bold',sans-serif] font-bold text-[16px] text-[#a9a9a9] leading-[22px]">IDEA #2</p>
-                  <p className=" font-normal text-[16px] text-white leading-[22px]">Additional content channels dynamically recommend materials by analyzing previous searches and related queries.</p>
+                  <p className="font-bold text-[16px] text-[#a9a9a9] leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>IDEA #2</p>
+                  <p className="font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Additional content channels dynamically recommend materials by analyzing previous searches and related queries.</p>
                 </div>
               </div>
               
@@ -366,7 +366,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   </div>
                 </div>
                 <div className="flex-1">
-                  <p className="font-['Work_Sans:Bold',sans-serif] font-bold text-[16px] text-[#a9a9a9] leading-[22px]">IDEA #3</p>
+                  <p className="font-bold text-[16px] text-[#a9a9a9] leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>IDEA #3</p>
                   <p className=" font-normal text-[16px] text-white leading-[22px]">Redesigning the card component to surface key information that enables students to evaluate and select resources directly from the search page.</p>
                 </div>
               </div>
@@ -379,8 +379,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
       <ScrollReveal delay={0.1}>
         <div className="max-w-[1000px] mx-auto px-4 md:px-8">
           <div className="mb-[60px] md:mb-[120px]">
-            <p className=" font-semibold text-[16px] text-[#a9a9a9] mb-4">CONSTRAINTS</p>
-            <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white mb-4">Primo's backend is VERY limited</p>
+            <p className="font-semibold text-[16px] text-[#a9a9a9] mb-4" style={{ fontFamily: "'Work Sans', sans-serif" }}>CONSTRAINTS</p>
+            <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Primo's backend is VERY limited</p>
             <p className=" font-normal text-[16px] text-white leading-[22px]">After reviewing the wireframes with our PM and developers, we determined that Primo's backend limitations would prevent the implementation of a "suggestions" feature, requiring us to explore alternative solutions.</p>
           </div>
         </div>
@@ -391,8 +391,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
         <div className="w-full bg-[#3d4a3d] py-[60px] md:py-[120px] border-0">
           <div className="max-w-[1000px] mx-auto px-4 md:px-8 border-0">
             <div className="mb-[60px]">
-              <p className=" font-semibold text-[16px] text-[#a9a9a9] mb-4">THE SOLUTION</p>
-              <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white mb-4">Prioritizing impact within a smaller design scope</p>
+              <p className="font-semibold text-[16px] text-[#a9a9a9] mb-4" style={{ fontFamily: "'Work Sans', sans-serif" }}>THE SOLUTION</p>
+              <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Prioritizing impact within a smaller design scope</p>
               <p className=" font-normal text-[16px] text-white leading-[22px]">Returning to the drawing board, we focused on two shippable features that would still provide students with guidance when navigating Primo's search.</p>
             </div>
             
@@ -400,7 +400,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             <div className="mb-[60px]">
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[38px] mb-[16px]">
                 <div className="flex-1">
-                  <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white">Feature #1</p>
+                  <p className="text-[24px] md:text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>Feature #1</p>
                 </div>
                 <p className="flex-1  font-normal text-[16px] text-white leading-[22px]">A graphic banner to provide ways users can refine their search, if the first 10 results don't show their desired material.</p>
               </div>
@@ -413,7 +413,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
             <div className="mb-[38px]">
               <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[38px] mb-[16px]">
                 <div className="flex-1">
-                  <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white">Feature #2</p>
+                  <p className="text-[24px] md:text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>Feature #2</p>
                 </div>
                 <p className="flex-1  font-normal text-[16px] text-white leading-[22px]">Enhancing search result cards so users can quickly evaluate resources and see availability and key details when available.</p>
               </div>
@@ -442,8 +442,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
       <ScrollReveal delay={0.1}>
         <div className="max-w-[1000px] mx-auto px-4 md:px-8 pt-[60px] md:pt-[120px]">
           <div className="mb-[60px] md:mb-[120px]">
-            <p className=" font-semibold text-[16px] text-[#a9a9a9] mb-4">THE RESULTS</p>
-            <p className="font-['Inika:Regular',sans-serif] text-[24px] md:text-[32px] text-white mb-4">Highly positive reception from the UC Library board and from usability tests</p>
+            <p className="font-semibold text-[16px] text-[#a9a9a9] mb-4" style={{ fontFamily: "'Work Sans', sans-serif" }}>THE RESULTS</p>
+            <p className="text-[24px] md:text-[32px] text-white mb-4" style={{ fontFamily: "'Inria Serif', serif" }}>Highly positive reception from the UC Library board and from usability tests</p>
             <p className=" font-normal text-[16px] text-white leading-[22px] mb-[38px]">The features were well received by the UC Library board and validated through 8 usability tests. UC Libraries are using our recommendations to work with Primo on backend improvements. Success will be measured through repeated use, higher Advanced Search engagement, and increased user confidence in finding resources. A full redesign of the design system will be covered in another case study.</p>
             <div className="h-auto max-w-full md:h-[376px] md:w-[656px] mx-auto">
               <img alt="" className="w-full h-auto md:max-w-none md:object-cover md:size-full" src={caseStudy.finalImage} />
@@ -494,7 +494,7 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
         </a>
       </div>
       <p 
-        className="text-[#c0c0c0] text-center  font-light"
+        className="text-[#c0c0c0] text-center font-light" style={{ fontFamily: "'Work Sans', sans-serif" }}
         style={{ 
           fontSize: '12px',
           letterSpacing: '0.02em',
