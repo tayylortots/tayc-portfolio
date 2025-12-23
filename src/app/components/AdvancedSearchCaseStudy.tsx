@@ -418,8 +418,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                   <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>Before</p>
                 </div>
                 <div className="flex flex-col gap-[16px]">
-                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative p-[16px]">
-                    <img alt="" className="w-full h-full object-cover rounded-[8px]" src={caseStudy.afterImage} />
+                  <div className="bg-[#485248] h-[400px] md:h-[500px] rounded-[8px] flex items-center justify-center overflow-hidden relative p-[8px]">
+                    <img alt="" className="h-auto w-auto max-w-full max-h-full object-contain rounded-[8px]" src={caseStudy.afterImage} />
                   </div>
                   <p className=" font-normal text-[16px] text-white leading-[22px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>After</p>
                 </div>
