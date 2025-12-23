@@ -78,10 +78,10 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
         {/* Hero Section */}
         <ScrollReveal direction="fade" duration={0.8}>
           <div className="mb-16">
-            <p className="font-['Inria_Serif:Regular',sans-serif] text-[24px] md:text-[32px] text-white mb-6 max-w-[673px]">
+            <p className="text-[24px] md:text-[32px] text-white mb-6 max-w-[673px]" style={{ fontFamily: "'Inria Serif', serif" }}>
               Hi! I'm Taylor, a product designer creating simple interfaces for complex problems.
             </p>
-            <p className="font-['Work_Sans:Light',sans-serif] font-light text-[16px] md:text-[18px] text-white max-w-[673px]">
+            <p className="font-light text-[16px] md:text-[18px] text-white max-w-[673px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
               Currently designing at Xbox. After hours, I make specialty lattes, illustrate, and experiment with motion and AI. And play video games.
             </p>
           </div>
@@ -119,16 +119,16 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
                 </div>
               </div>
               <div className="flex items-center gap-2 mb-2">
-                <p className="font-['Inria_Serif:Regular',sans-serif] text-[20px] text-white">
+                <p className="text-[20px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>
                   Improving the search experience
                 </p>
                 <div className="px-[8px] py-[2px]" style={{ boxShadow: '0 0 0 1px white' }}>
-                  <p className="font-['Work_Sans:Medium',sans-serif] font-medium text-[8px] text-white tracking-[0.42px]">
+                  <p className="font-medium text-[8px] text-white tracking-[0.42px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
                     CASE STUDY
                   </p>
                 </div>
               </div>
-              <p className="font-['Work_Sans:Light',sans-serif] font-light text-[14px] text-white leading-[21px]">
+              <p className="font-light text-[14px] text-white leading-[21px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
                 Guiding students to advanced search when results fall short
               </p>
             </div>
@@ -145,10 +145,10 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
                   loading="lazy"
                 />
               </div>
-              <p className="font-['Inria_Serif:Regular',sans-serif] text-[20px] text-white mb-2">
+              <p className="text-[20px] text-white mb-2" style={{ fontFamily: "'Inria Serif', serif" }}>
                 Xbox game art updater
               </p>
-              <p className="font-['Work_Sans:Light',sans-serif] font-light text-[14px] text-white leading-[21px]">
+              <p className="font-light text-[14px] text-white leading-[21px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
                 Improved designers' workflows by 20% by building a plugin that auto-updates game data through Twitch's API.
               </p>
             </div>
@@ -198,10 +198,10 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
                   <div className="absolute bottom-0 left-0 right-0 h-[20%] bg-gradient-to-t from-black/15 to-transparent" />
                 </div>
               </div>
-              <p className="font-['Inria_Serif:Regular',sans-serif] text-[20px] text-white mb-2">
+              <p className="text-[20px] text-white mb-2" style={{ fontFamily: "'Inria Serif', serif" }}>
                 Handheld Compatibility program
               </p>
-              <p className="font-['Work_Sans:Light',sans-serif] font-light text-[14px] text-white leading-[21px]">
+              <p className="font-light text-[14px] text-white leading-[21px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
                 Helping players understand how games perform on handheld systems.
               </p>
             </a>
@@ -212,7 +212,7 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
         <ScrollReveal delay={0.1}>
           <div className="mb-16">
             <div className="flex items-center justify-between mb-8">
-              <h2 className="font-['Inria_Serif:Regular',sans-serif] text-[32px] text-white">
+              <h2 className="text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>
                 Fun projects
               </h2>
               <button
@@ -309,7 +309,7 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
         <ScrollReveal delay={0.2}>
           <div className="mb-16">
             <div className="flex items-center justify-between mb-8">
-              <h2 className="font-['Inria_Serif:Regular',sans-serif] text-[32px] text-white">
+              <h2 className="text-[32px] text-white" style={{ fontFamily: "'Inria Serif', serif" }}>
                 Favorite retro games
               </h2>
               <button
@@ -427,8 +427,9 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
           </div>
           {/* START button hint */}
           <p 
-            className="text-[#c0c0c0] text-center font-['Work_Sans:Light',sans-serif] font-light"
-            style={{ 
+            className="text-[#c0c0c0] text-center font-light"
+            style={{
+              fontFamily: "'Work Sans', sans-serif",
               fontSize: '12px',
               letterSpacing: '0.02em',
               opacity: 1
