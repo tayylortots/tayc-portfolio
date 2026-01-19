@@ -241,8 +241,8 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                       <div className="absolute top-[60px] left-[20px] right-[55px] rounded-[4px]">
                         <img alt="" className="w-full h-auto object-contain rounded-[4px]" src={caseStudy.quoteImage4} />
                       </div>
-                      <div className="absolute top-[135px] left-[37.5px] h-[91px] w-[265px] rounded-[4px] overflow-hidden">
-                        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={caseStudy.quoteImage5} />
+                      <div className="absolute top-[135px] left-[37.5px] h-[91px] w-[265px] rounded-[4px]">
+                        <img alt="" className="w-full h-auto object-contain rounded-[4px]" src={caseStudy.quoteImage5} />
                       </div>
                       <div className="absolute h-[22px] left-[24.5px] top-[150px] w-[8.5px]">
                         <div className="absolute inset-[0_-5.88%_-16.74%_-5.88%]">
