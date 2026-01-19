@@ -41,7 +41,7 @@ import quote1Png from './case-study/Quotes/Quote 1.png';
 import quote2Png from './case-study/Quotes/Quote 2.png';
 import quote3Png from './case-study/Quotes/Quote 3.png';
 import quote4Png from './case-study/Quotes/Quote 4.png';
-import quote5Png from './case-study/Quotes/quote 5.png';
+import quote5Png from './case-study/Quotes/Quote 5.png';
 import challenge1Png from './case-study/challenge/Challenge 1.png';
 import challenge2Png from './case-study/challenge/Challenge 2.png';
 import wireframe1Png from './case-study/wireframes/wireframe solution1.png';
