@@ -243,9 +243,10 @@ export function AdvancedSearchCaseStudy({ onBack, onHome }: AdvancedSearchCaseSt
                       <div className="absolute top-[60px] left-[20px] right-[55px] rounded-[4px]">
                         <img alt="" className="w-full h-auto object-contain rounded-[4px]" src={caseStudy.quoteImage4} />
                       </div>
-                      <div className="absolute top-[135px] left-[37.5px] h-[91px] w-[265px]" style={{ borderRadius: '4px', position: 'relative', overflow: 'hidden' }}>
+                      {/* Quote 5 image - temporarily disabled until assets can be properly deployed */}
+                      {/* <div className="absolute top-[135px] left-[37.5px] h-[91px] w-[265px]" style={{ borderRadius: '4px', position: 'relative', overflow: 'hidden' }}>
                         <img alt="" className="w-full h-full object-cover" src={caseStudy.quoteImage5} />
-                      </div>
+                      </div> */}
                       <div className="absolute h-[22px] left-[24.5px] top-[150px] w-[8.5px]">
                         <div className="absolute inset-[0_-5.88%_-16.74%_-5.88%]">
                           <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 9.5 25.682">
