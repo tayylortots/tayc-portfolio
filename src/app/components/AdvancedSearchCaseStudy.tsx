@@ -3,6 +3,8 @@ import svgPathsQuote4 from "../../imports/svg-wckdi7nqwr";
 import { caseStudy } from "../../assets/images";
 import { ScrollReveal } from "./ScrollReveal";
 
+// Force Vercel rebuild
+
 interface AdvancedSearchCaseStudyProps {
   onBack: () => void;
   onHome: () => void;
