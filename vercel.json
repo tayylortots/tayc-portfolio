@@ -1,4 +1,4 @@
-{
+﻿{
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
@@ -11,5 +11,4 @@
       "destination": "/index.html"
     }
   ]
-}
 }
