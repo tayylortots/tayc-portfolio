@@ -149,7 +149,7 @@ export default function PortfolioSiteDesign({ onBack }: { onBack?: () => void })
                 Xbox game art updater
               </p>
               <p className="font-light text-[14px] text-white leading-[21px]" style={{ fontFamily: "'Work Sans', sans-serif" }}>
-                Improved designers' workflows by 20% by building a plugin that auto-updates game data through Twitch's API.
+                Accelerated designers' workflows by building a plugin that auto-updates game data through Twitch's API.
               </p>
             </div>
           </ScrollReveal>
